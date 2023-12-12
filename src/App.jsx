@@ -1,5 +1,12 @@
+import Homepage from "./pages/Homepage.jsx";
+
 const App = () => {
-  return <div>Golala</div>;
+  return (
+    <>
+      {/* ######## HOMEPAGE ######## */}
+      <Homepage />
+    </>
+  );
 };
 
 export default App;
